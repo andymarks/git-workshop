@@ -12,4 +12,5 @@ describe SingaporeRelativeClock do
 	it "should be the same time if you ask for another country in the same timezone as Singapore" do
 		@clock.timeIn(:brisbane).should == @clock.timeInSingapore
 	end
+	
 end
